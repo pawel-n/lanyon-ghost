@@ -667,14 +667,11 @@ a.pagination-item:hover {
   font-size: 1rem;
   font-style: italic;
   color: #9EABB3;
+  text-decoration: none;
 }
 
 .post-footer .share .share-icon {
   margin-left: 2em;
-}
-
-.post-footer .share .share-icon :hover {
-  text-decoration: none;
 }
 
 .tag-head.main-header {
