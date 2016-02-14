@@ -621,6 +621,9 @@ a.pagination-item:hover {
   line-height: 1em;
 }
 
+#disqus_thread {
+  margin-top: 2rem;
+}
 
 /* list of author links - location / url */
 
