@@ -626,6 +626,11 @@ a.pagination-item:hover {
     text-decoration: underline;
 }
 
+/*  */
+.post-footer .share {
+  
+}
+
 .tag-head.main-header {
     height: 40%;
     min-height: 180px;
