@@ -642,8 +642,7 @@ a.pagination-item:hover {
   color: #111;
 }
 
-
-.post-footer .author {
+.author-brief {
   float: left;
 }
 
@@ -672,7 +671,10 @@ a.pagination-item:hover {
 
 .post-footer .share .share-icon {
   margin-left: 2em;
-  text-decoration: none !important;
+}
+
+.post-footer .share .share-icon :hover {
+  text-decoration: none;
 }
 
 .tag-head.main-header {
@@ -693,6 +695,7 @@ a.pagination-item:hover {
 
 .author-full {
   padding: 0 15px 0 15px;
+  margin-bottom: 15px;
   border-bottom: #EBF2F6 1px solid;
   text-align: center;
 }
@@ -753,12 +756,6 @@ a.pagination-item:hover {
 
 
 /* Location, website, and link */
-
-.author-full .author-meta {
-  margin: 2rem 0;
-  font-family: "Noto Serif", serif;
-  font-size: 1.7rem;
-}
 
 .author-meta span {
   display: inline-block;
