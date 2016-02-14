@@ -19,14 +19,14 @@
 
       {{! Everything inside the #author tags pulls data from the author }}
       {{#author}}
+        <section class="author-brief">
 
-        {{#if image}}
-          <figure class="author-image">
-            <a class="img" href="{{url}}" style="background-image: url({{image}})"><span class="hidden">{{name}}'s Picture</span></a>
-          </figure>
-        {{/if}}
+          {{#if image}}
+            <figure class="author-image">
+              <a class="img" href="{{url}}" style="background-image: url({{image}})"><span class="hidden">{{name}}'s Picture</span></a>
+            </figure>
+          {{/if}}
 
-        <section class="author">
           <h4><a href="{{url}}">{{name}}</a></h4>
 
           {{#if bio}}
@@ -36,20 +36,21 @@
           <div class="author-meta">
             {{#if location}}
               <span class="author-location">
-                <i class="fa fa-map-marker"></i>
-                {{location}}
-              </span>
+              <i class="fa fa-map-marker"></i>
+              {{location}}
+            </span>
             {{/if}}
 
             {{#if website}}
               <span class="author-link">
-                <a href="{{website}}">
-                  <i class="fa fa-external-link"></i>
-                  {{website}}
-                </a>
-              </span>
+              <a href="{{website}}">
+                <i class="fa fa-external-link"></i>
+                {{website}}
+              </a>
+            </span>
             {{/if}}
           </div>
+
         </section>
 
       {{/author}}

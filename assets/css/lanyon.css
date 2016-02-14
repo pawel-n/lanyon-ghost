@@ -691,7 +691,7 @@ a.pagination-item:hover {
   background: transparent;
 }
 
-.author-profile {
+.author-full {
   padding: 0 15px 0 15px;
   border-bottom: #EBF2F6 1px solid;
   text-align: center;
@@ -710,7 +710,7 @@ a.pagination-item:hover {
   box-shadow: #E7EEF2 0 0 0 1px;
 }
 
-.author .author-image {
+.author-full .author-image {
   margin-left: auto;
   margin-right: auto;
   width: 120px;
@@ -719,7 +719,7 @@ a.pagination-item:hover {
   box-shadow: none;
 }
 
-.author-profile .author-image {
+.author-brief .author-image {
   position: absolute;
   top: -60px;
   left: 50%;
@@ -754,7 +754,7 @@ a.pagination-item:hover {
 
 /* Location, website, and link */
 
-.author-profile .author-meta {
+.author-full .author-meta {
   margin: 2rem 0;
   font-family: "Noto Serif", serif;
   font-size: 1.7rem;
@@ -774,7 +774,7 @@ a.pagination-item:hover {
 /* Turn off meta for page2+ to make room for extra
    pagination prev/next links */
 
-.archive-template .author-profile .author-meta {
+.archive-template .author-full .author-meta {
   display: none;
 }
 
