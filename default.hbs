@@ -16,6 +16,7 @@
     <link rel="stylesheet" href="{{asset "css/poole.css"}}">
     <link rel="stylesheet" href="{{asset "css/syntax.css"}}">
     <link rel="stylesheet" href="{{asset "css/lanyon.css"}}">
+    <link rel="stylesheet" href="{{asset "css/prism.css"}}" />
     <link rel="stylesheet" href="//fonts.googleapis.com/css?family=PT+Serif:400,400italic,700%7CPT+Sans:400">
 
     <!-- Icons -->
@@ -74,5 +75,8 @@
 
     {{! Ghost outputs important scripts and data with this tag }}
     {{ghost_foot}}
+
+    {{! Additional javascript files }}
+    <script type="text/javascript" src="{{asset "js/prism.js"}}"></script>
   </body>
 </html>
