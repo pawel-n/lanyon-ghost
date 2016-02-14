@@ -694,8 +694,8 @@ a.pagination-item:hover {
 }
 
 .author-full {
-  padding: 0 15px 0 15px;
-  margin-bottom: 15px;
+  padding: 0 15px 2rem 15px;
+  margin-bottom: 1rem;
   border-bottom: #EBF2F6 1px solid;
   text-align: center;
 }
