@@ -605,9 +605,16 @@ a.pagination-item:hover {
 
 .post-footer {
   position: relative;
-  margin: 3rem 0 0 0;
+  margin: 3rem 0 2rem 0;
   padding: 2rem 0 0 0;
   border-top: #EBF2F6 1px solid;
+}
+
+.post-footer::after {
+   content: " ";
+   display: block;
+   height: 0;
+   clear: both;
 }
 
 .post-footer h4 {
@@ -619,10 +626,6 @@ a.pagination-item:hover {
   margin: 0.4rem 0 0.8rem 0;
   font-size: 1rem;
   line-height: 1em;
-}
-
-#disqus_thread {
-  margin-top: 2rem;
 }
 
 /* list of author links - location / url */
