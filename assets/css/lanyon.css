@@ -642,6 +642,15 @@ a.pagination-item:hover {
   color: #111;
 }
 
+.author-brief .author-bio {
+  padding: 0;
+  margin: 0;
+  line-height: 1.5;
+  font-size: 1rem;
+  font-style: italic;
+  color: #9EABB3;
+}
+
 .author-brief {
   float: left;
 }
@@ -663,15 +672,16 @@ a.pagination-item:hover {
   text-align: right;
   padding: 0;
   margin: 0;
-  line-height: 2;
   font-size: 1rem;
   font-style: italic;
+  line-height: 1.5;
   color: #9EABB3;
-  text-decoration: none;
 }
 
 .post-footer .share .share-icon {
-  margin-left: 2em;
+  margin-left: 1em;
+  color: #268bd2;
+  text-decoration: none !important;
 }
 
 .tag-head.main-header {
@@ -742,7 +752,7 @@ a.pagination-item:hover {
   margin: 1.5rem 0 1rem;
 }
 
-.author-bio {
+.author-full .author-bio {
   font-size: 1.2rem;
   line-height: 1.5em;
   font-weight: 200;
@@ -750,7 +760,6 @@ a.pagination-item:hover {
   letter-spacing: 0;
   text-indent: 0;
 }
-
 
 /* Location, website, and link */
 

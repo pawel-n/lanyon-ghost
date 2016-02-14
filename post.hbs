@@ -30,26 +30,8 @@
           <h4><a href="{{url}}">{{name}}</a></h4>
 
           {{#if bio}}
-            <p>{{bio}}</p>
+            <p class="author-bio">{{bio}}</p>
           {{/if}}
-
-          <div class="author-meta">
-            {{#if location}}
-              <span class="author-location">
-              <i class="fa fa-map-marker"></i>
-              {{location}}
-            </span>
-            {{/if}}
-
-            {{#if website}}
-              <span class="author-link">
-              <a href="{{website}}">
-                <i class="fa fa-external-link"></i>
-                {{website}}
-              </a>
-            </span>
-            {{/if}}
-          </div>
 
         </section>
 
@@ -57,17 +39,17 @@
 
       {{! A floating sections of share links }}
       <section class="share">
-        <div>
+        <h4>
           <a class="share-icon" href="https://twitter.com/intent/tweet?text={{encode title}}&amp;url={{url absolute="true"}}" onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
-            <i class="fa fa-twitter fa-lg" title="Share on Twitter"></i>
+            <i class="fa fa-twitter" title="Share on Twitter"></i>
           </a>
           <a class="share-icon" href="https://www.facebook.com/sharer/sharer.php?u={{url absolute="true"}}" onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;">
-            <i class="fa fa-facebook fa-lg" title="Share on Facebook"></i>
+            <i class="fa fa-facebook" title="Share on Facebook"></i>
           </a>
           <a class="share-icon" href="https://plus.google.com/share?url={{url absolute="true"}}" onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;">
-            <i class="fa fa-google-plus fa-lg" title="Share on Google+"></i>
+            <i class="fa fa-google-plus" title="Share on Google+"></i>
           </a>
-        </div>
+        </h4>
         <span>Share this post</span>
       </section>
 
