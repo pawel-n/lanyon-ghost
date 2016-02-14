@@ -600,7 +600,6 @@ a.pagination-item:hover {
     margin: 0;
     list-style: none;
     font-size: 1rem;
-    line-height: 1;
     font-style: italic;
     color: #9EABB3;
 }
@@ -626,9 +625,14 @@ a.pagination-item:hover {
     text-decoration: underline;
 }
 
-/*  */
+/* Share links */
 .post-footer .share {
     float: right;
+    text-align: right;
+}
+
+.post-footer .share .share-icon {
+    margin-left: 1.5em;
 }
 
 .tag-head.main-header {
