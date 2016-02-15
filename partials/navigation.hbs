@@ -13,5 +13,33 @@
     {{#foreach navigation}}
       <a class="sidebar-nav-item sidebar-nav-{{slug}} {{#if current}}active{{/if}}" href="{{url absolute="true"}}">{{label}}</a>
     {{/foreach}}
+
+    <span class="sidebar-nav-item">
+      <hr>
+    </span>
+
+    <a class="sidebar-nav-item sidebar-nav-github" href="https://github.com/pawel-n/">
+      <i class="fa fa-github"></i> GitHub
+    </a>
+
+    <a class="sidebar-nav-item sidebar-nav-twitter" href="https://twitter.com/pawel_now">
+      <i class="fa fa-twitter"></i> Twitter
+    </a>
+
+    <a class="sidebar-nav-item sidebar-nav-linkedin" href="https://www.linkedin.com/in/paweln">
+      <i class="fa fa-linkedin"></i> LinkedIn
+    </a>
+
+    <a class="sidebar-nav-item sidebar-nav-google-plus" href="https://plus.google.com/u/1/105771805907649205763/about">
+      <i class="fa fa-google-plus"></i> Google+
+    </a>
+
+    <span class="sidebar-nav-item">
+      <hr>
+    </span>
+
+    <a class="sidebar-nav-item sidebar-nav-subscribe" href="{{@blog.url}}/rss/">
+      <i class="fa fa-rss"></i> Subscribe
+    </a>
   </nav>
 </div>
